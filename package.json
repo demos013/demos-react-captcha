@@ -1,0 +1,45 @@
+{
+  "name": "demos-react-captcha",
+  "version": "1.0.0",
+  "description": "captcha react component",
+  "repository": "https://github.com/demos013/demos-react-captcha",
+  "homepage": "https://github.com/demos013/demos-react-captcha#readme",
+  "author": "Demos <daemos013@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/captcha.js",
+  "umd:main": "dist/captcha.umd.js",
+  "source": "src/captcha.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "captcha"
+  ],
+  "scripts": {
+    "build": "microbundle --jsx=React.createElement",
+    "dev": "microbundle watch --jsx=React.createElement",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "jest-canvas-mock": "^1.1.0",
+    "microbundle": "^0.8.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
