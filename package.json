@@ -7,12 +7,7 @@
   "author": "Demos <daemos013@gmail.com>",
   "license": "MIT",
   "private": false,
-  "main": "dist/captcha.js",
-  "umd:main": "dist/captcha.umd.js",
-  "source": "src/captcha.js",
-  "files": [
-    "dist"
-  ],
+  "main": "src/hello-nextzy.js",
   "keywords": [
     "react",
     "captcha"
