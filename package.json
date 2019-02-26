@@ -7,7 +7,7 @@
   "author": "Demos <daemos013@gmail.com>",
   "license": "MIT",
   "private": false,
-  "main": "src/hello-nextzy.js",
+  "main": "src/captcha.js",
   "keywords": [
     "react",
     "captcha"
