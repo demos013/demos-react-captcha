@@ -7,7 +7,12 @@
   "author": "Demos <daemos013@gmail.com>",
   "license": "MIT",
   "private": false,
-  "main": "src/captcha.js",
+  "main": "dist/captcha.js",
+  "umd:main": "dist/captcha.umd.js",
+  "source": "src/captcha.js",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "react",
     "captcha"
