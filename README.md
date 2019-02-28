@@ -12,20 +12,20 @@ Note that in most cases you should consider [Google Recaptcha](https://www.googl
 
 ## Usage
 
-[codesandbox](https://codesandbox.io/s/mzqzv33pq8)
+[codesandbox](https://codesandbox.io/s/lrzwx9mo2l)
 
 ```
-npm i demos-react-captcha
+npm install --save demos-react-captcha
 ```
 
 ```jsx
-<Canvas
+<Captcha
   onChange={/* change handler function */}
-  placeholder="Insert captcha" // optional
+  placeholder="Enter captcha" // optional
   length={6} // default
 />
 ```
 
 ## Styling
 
-By default no style is included, you can style it using regular css. For example: [captcha.css](https://raw.githubusercontent.com/sthobis/react-numeric-captcha/master/src/captcha.css).
+By default a style is included, but you can style it using regular css.
