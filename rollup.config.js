@@ -39,7 +39,8 @@ export default {
         // left-hand side can be an absolute path, a path
         // relative to the current directory, or the name
         // of a module in node_modules
-        'src/captcha.js': [ 'DemosCaptcha' ]
+        'src/captcha.js': [ 'DemosCaptcha' ],
+        'node_modules/react-is/index.js': ['isElement', 'isValidElementType', 'ForwardRef']
       }
     })
   ]

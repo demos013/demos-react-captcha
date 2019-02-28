@@ -1,4 +1,6 @@
+import styled from 'styled-components';
 
+export const CaptchaWrapper = styled.div`
 .rnc {
   display: flex;
   flex-direction: column;
@@ -57,4 +59,4 @@
   border-radius: 6px;
   font-size: 14px;
   color: #46474A;
-}
+}`
