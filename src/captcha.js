@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import './captcha.css';
+import styles from './captcha.css';
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -83,21 +83,21 @@ class Captcha extends Component {
     const { input } = this.state;
 
     return (
-        <div className="rnc">
-          <div className="rnc-row">
+        <div className="styles.rnc">
+          <div className="styles.rnc-row">
             <canvas
               ref={el => (this.canvas = el)}
               width={200}
               height={50}
-              className="rnc-canvas"
+              className="styles.rnc-canvas"
               data-testid="captcha-canvas"
             />
-            <div className="rnc-column">
+            <div className="styles.rnc-column">
               <button
                 type="button"
                 aria-label="get new captcha"
                 onClick={this.refresh}
-                className="rnc-button"
+                className="styles.rnc-button"
                 data-testid="captcha-refresh"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -113,7 +113,7 @@ class Captcha extends Component {
                 type="button"
                 aria-label="play audio"
                 onClick={this.playAudio}
-                className="rnc-button"
+                className="styles.rnc-button"
                 data-testid="captcha-audio"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -133,7 +133,7 @@ class Captcha extends Component {
             value={input}
             onChange={this.handleChange}
             placeholder={placeholder}
-            className="rnc-input"
+            className="styles.rnc-input"
             data-testid="captcha-input"
           />
         </div>
