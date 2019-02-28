@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import '././src/captcha.css';
+import '/src/captcha.css';
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
