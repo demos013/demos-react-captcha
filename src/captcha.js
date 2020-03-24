@@ -50,6 +50,7 @@ class Captcha extends Component {
   };
 
   refresh = () => {
+    const { onRefresh } = this.props
     this.setState(
       {
         solution: genetateCaptcha(this.props.length),
@@ -57,6 +58,7 @@ class Captcha extends Component {
       },
       () => this.drawCaptcha()
     )
+    onRefresh()
   };
 
   playAudio = () => {
@@ -150,6 +152,7 @@ Captcha.defaultProps = {
 
 Captcha.propTypes = {
   onChange: PropTypes.func.isRequired,
+  onRefresh: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   length: PropTypes.number
 }
